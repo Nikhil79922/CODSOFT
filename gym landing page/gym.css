@@ -1,0 +1,109 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url('https://images.wsj.net/im-335891');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+
+}
+
+
+.hero-content {
+  max-width: 600px;
+
+}
+
+.hero h1 {
+  font-size: 48px;
+
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ff5e14;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 4px 4px 0 #ff5e14;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cta-button:hover {
+  background-color: #ff8f68;
+  transform: translateX(4px) translateY(4px);
+  box-shadow: 0 0 0 #ff5e14;
+}
+
+/* Style the About section */
+.about {
+  font-size: 25px;
+  color: rgb(73, 20, 20);
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+  background-image: url('https://media.tenor.com/tD_vqfAVtPYAAAAd/this-is-about-all-of-us-all-about-us.gif');
+
+}
+
+.about h2 {
+  font-size: 36px;
+}
+
+
+.contact {
+  padding: 50px 20px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/E02724065_Google_GMP_DV360_PG_POS_asset_Mar22_v03.gif')
+}
+
+.contact h2 {
+  font-size: 50px;
+  background-size: cover;
+  background-position: center;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  margin: 15px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #ff5e14;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 #ff5e14;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+form button:hover {
+  background-color: #ff8f68;
+  transform: translateX(4px) translateY(4px);
+  box-shadow: 0 0 0 #ff5e14;
+}
